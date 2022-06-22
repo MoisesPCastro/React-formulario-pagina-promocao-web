@@ -36,10 +36,10 @@ export default function useApi(config) {
     if (config.onCompleted) {
       config.onCompleted(response);
     }
-  }
+  };
 
   return [
     call,
     requestInfo
   ]
-}
+};
