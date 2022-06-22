@@ -6,6 +6,7 @@ const initialRequestInfo = {
   data: null,
   loading: false,
 };
+let moi;
 
 export default function useApi(config) {
   const [requestInfo, setRequestInfo] = useState(initialRequestInfo)
